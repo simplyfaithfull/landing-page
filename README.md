@@ -1,0 +1,1 @@
+Creating a landing page to practice HTML and CSS skills
