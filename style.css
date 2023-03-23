@@ -3,14 +3,20 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  margin: 
+  margin: 0;
+  padding: 0;
+}
+
+.top {
+  background: #1F2937;
+  padding-bottom: 52px;  
 }
 
 .header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 16px;
+  align-items: center;
 }
 
 .links {
@@ -19,6 +25,14 @@ body {
 
 .title {
 
+}
+
+.subtext {
+  color: #e5e7eb;
+}
+
+.image {
+  
 }
 
 .content {
@@ -37,8 +51,13 @@ body {
 
 }
 
+.buttons {
+
+}
+
 button {
   
+
 }
 
 ul {
@@ -50,9 +69,24 @@ ul {
   text-decoration: none;
 }
 
+a {
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+h3 {
+  color: #F9FAf8;
+  font-size: 24px;
+}
+
 h1 {
+  color: #F9FAf8;
   font-size: 48px;
   font-weight: bolder;
 }
 
+img {
+  width: 700px;
+  height: 500px;
+}
 
