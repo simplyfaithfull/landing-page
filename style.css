@@ -1,0 +1,58 @@
+body {
+  font-family: Roboto, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.links {
+
+}
+
+.title {
+
+}
+
+.content {
+
+}
+
+.quote {
+
+}
+
+.action{
+
+}
+
+.footer {
+
+}
+
+button {
+  
+}
+
+ul {
+  font-size: 18px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+  list-style: none;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+
