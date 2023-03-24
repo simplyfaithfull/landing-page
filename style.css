@@ -32,10 +32,12 @@ body {
 
 .box {
   display: flex;
+  flex: 1;
   justify-content: center;
   text-align: center;
   gap: 32px;
   padding-bottom: 100px;
+  flex-wrap: wrap;
 }
 
 .content {
@@ -43,9 +45,24 @@ body {
 }
 
 .quote {
-  background: #e5e7eb;
+  background-color: #e5e7eb;
   color: #1f2937;
   font-style: italic;
+  font-weight: lighter;
+  font-size: 36px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.name {
+  font-weight: bold;
+  font-style: normal;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content:  
 }
 
 .action{
